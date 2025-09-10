@@ -26,7 +26,9 @@ SKIPPED_EXAMPLES = [
 
 # SOLVERS = SolverLookup.supported()
 SOLVERS = [
-    "rc2",
+    "ortools",
+    "gurobi",
+    "minizinc",
 ]
 
 
